@@ -21,13 +21,13 @@ html {
 
 .logo {
     height: auto;
-    width: 80px;
-    margin: 10px;
+    width: 100px;
+    margin-top: 20px;
     text-align: center;
 }
 
 body {
-    background: #ffffff;
+    background-image: url(./images/triangle-mosaic.png);
     height: 100vh;
 }
 
@@ -44,11 +44,17 @@ img {
     width: 500px;
 }
 
+.front{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+
 .item img:hover{
     transform: scale(1.05);
     transition: all ease;
     border-radius: 15px;
-    box-shadow: 0 0 5px #f7de6c;
+    box-shadow: 0 0 5px rgb(240, 236, 230);
 }
 
 .content {
@@ -78,15 +84,16 @@ img {
     border: 1px solid rgb(255, 255, 255);
     height: 500px;
     width: 500px;
-    background-color: rgb(240, 236, 230);
+    background-color: rgb(240, 234, 228);
 }
 
 .right-top {
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(240, 236, 230);
     height: 500px;
     width: 500px;
+    background-color: white;
 }
 
 .right-bot {
@@ -94,7 +101,8 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(240, 236, 230);
     height: 500px;
     width: 500px;
+    background-color: white;
 }
